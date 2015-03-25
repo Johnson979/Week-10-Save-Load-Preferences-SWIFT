@@ -51,15 +51,6 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Ii2-pv-n7G"/>
                                 </connections>
                             </pickerView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nm-Jo-7MW">
-                                <rect key="frame" x="181" y="327" width="239" height="30"/>
-                                <state key="normal" title="Save Preferences">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="btnSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lie-on-bGG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zE-LR-8lm">
                                 <rect key="frame" x="181" y="365" width="239" height="30"/>
                                 <state key="normal" title="Clear Preferences">
@@ -80,6 +71,15 @@
                                 </state>
                                 <connections>
                                     <action selector="btnLoad:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L21-zV-gsi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4nm-Jo-7MW">
+                                <rect key="frame" x="181" y="327" width="239" height="30"/>
+                                <state key="normal" title="Save Preferences">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lie-on-bGG"/>
                                 </connections>
                             </button>
                         </subviews>
